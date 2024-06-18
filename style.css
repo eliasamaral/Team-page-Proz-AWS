@@ -77,3 +77,28 @@ section {
   font-size: 18px;
   font-weight: 400;
 }
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+
+  header img {
+    width: auto;
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    width: 90%;
+  }
+  section {
+    grid-template-columns: 1fr;
+  }
+  .profile-card img {
+    width: 120px;
+    height: 120px;
+  }
+}
